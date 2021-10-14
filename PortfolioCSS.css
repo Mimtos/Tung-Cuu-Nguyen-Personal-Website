@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    line-height: 1.5em;
+    background-image: linear-gradient(to bottom right,#31d42c, #a2e0a1);
+}
+
+#mainbody{
+    float: right;
+    box-sizing: border-box;
+    width: 85%;
+    text-align: center;
+}
+
+.work{
+    padding: 1%;
+}
+
+#copyrightfooter{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    /*revert to 30% to revert */
+    margin-top: auto;
+}
+
+#main ul{
+    margin: auto;
+    list-style: none;
+    overflow:hidden;
+    text-align: center;
+}
+
+#main li{
+    display: inline;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+}
+
+#mainbody img{
+    width: 20%;
+}
+
+
+
+
+/* Banner and Profile Picture with the Title*/
+#mainheader{
+    font-size: 100%;
+    color:black;
+    background-color: rgb(219, 217, 217);
+    background-image: url('banner.jpg');
+    text-align: center;
+    overflow: hidden;
+}
+
+#mainheader img{
+    border-radius: 50%;
+    height: auto;
+    width: 15%;
+}
+
+#profilepicture{
+    border-radius: 50%;
+}
+
+.container{
+    text-align: center;
+    /*delete below to revert */
+    min-height: 100vh;    
+    display: flex;
+    flex-direction: column;
+}
+/* Banner and Profile Picture with the Title*/
+
+
+
+
+/* Main Navigation Menu CSS properties*/
+#main_navmenu ul{
+    background: black;
+    margin: auto;
+    list-style: none;
+    overflow:hidden;
+    text-align: center;
+    
+
+}
+
+#main_navmenu li{
+    display: inline;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+
+}
+
+#main_navmenu a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: auto;
+}
+
+#main_navmenu li:hover{
+    background: grey
+}
+/* Main Navigation Menu CSS properties*/
+
+
+
+
+/* Logo CSS properties*/
+#uci_logo {
+    width: 30%;
+}
+
+#project_manager{
+    width: 10%;
+}
+
+
+
+
+/* Sidebar CSS properties*/
+#sidebar{
+    float: left;
+    width: 15%;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+}
+
+#sidebar img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    margin-left: auto;
+}
+
+#sidebar h1{
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+#sidenavmenu p{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#sidebar p{
+    text-align: center;
+}
+/* Sidebar CSS properties*/
+
+
+
+/*Keeps Copyright Footer at the bottom*/
+@media (max-width:600px){
+    #mainbody{
+        width: 100%;
+        float:none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+        border-right: 0;
+    }
+}
+
+
+
+
+/*Personal Projects Sidebars Special CSS Properties*/
+#sidenavmenulanguages li{
+    padding: 5%;
+}
+#sidenavmenulanguages p{
+    font-size: 150%;
+    font-weight: bold;
+    width: 100%;
+}
+
+.projectheader{
+    font-size: 150%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+#deadlink {
+    color: red;
+}
+
+.workheader{
+    color: white;
+}
+
+.project{
+    padding: 3%;
+}
+
+h2{
+    text-align: center;
+}
+/*Personal Projects Sidebars Special CSS Properties*/
+
+
+
+
+
+
+/* Contact Form Box CSS Properties*/
+input[type=text]{
+    width: 60%;
+    padding: 1%; 
+    margin: 1%;
+}
+  
+textarea{
+    width: 40%; 
+    resize: vertical
+}
+
+input[type=submit]{
+    background-color: black;
+    color: white;
+    padding: 0.5%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+}
+/* Contact Form Box CSS */

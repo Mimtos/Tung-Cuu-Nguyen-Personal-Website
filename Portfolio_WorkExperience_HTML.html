@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tung's Personal Projects</title>
+    <link rel="stylesheet" href="PortfolioCSS.css">
+</head>
+<body>
+    <div id="mainheader">
+        <!--Title-->
+        <h1>Tung's Portfolio Website</h1>
+        <!--Portrait Picture on Banner-->
+        <img src="tung.png" alt="Self portrait of Tung Nguyen">
+    </div>
+    
+    <div>  <!--Main Navigation Menu-->
+        <nav id="main_navmenu">
+                <ul>
+                    <!--List of objects in navigation menu-->
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="Portfolio_WorkExperience_HTML.html">Work Experience</a></li>
+                    <li><a href="Portfolio_PersonalProjects_HTML.html">Personal Projects</a></li>
+                    <li><a href="Portfolio_ConnectWithMe_HTML.html">Connect with me</a></li>
+                    <li><a href="https://drive.google.com/file/d/18L-n2QZ8QuJmbLWJZ2MtaL-DGXkVCxb9/view?usp=sharing">Resume</a></li>
+
+                </ul>
+        </nav>
+    </div>
+
+
+    <div class="sidebar_items"> <!-- Sidebar of page-->
+        <aside id="sidebar">
+            <nav id="sidenavmenulanguages">
+                <ul>
+                    <!-- List of icons -->
+                    <li><p>Companies</p></li>
+                    <li><img src="ucioit.png" alt="UCI OIT Company Logo"></li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+
+    <div class = "container">
+        
+        <div id="mainbody">
+            <h1>Work Experiences</h1>
+            <!--Main body section with content-->
+            <!--Each section is classified into 'work' class-->
+            <!--Headers for each section is 'workheader'-->
+            <div class = "work">
+                <p class="workheader">MRI Monitoring Device - July 2020</p>
+                <p>I was commissioned by a private company to develop a software and  custom hardware to implement it. The device was
+                engineered to conduct 24/7 monitoring on MRI machines' statuses. The device itself was a <strong>modified Rasberry Pi</strong> optimized for the workplace environment.
+                The software itself was a <strong>Python script</strong> with a <strong>Dropbox API</strong> to allow for the software to store the data locally and on the cloud.
+                With the new hardware and software, the company was able to <strong>save $100 per month</strong> compared to their legacy system.
+                </p>
+            </div>
+
+            <div class = "work">
+                <p class="workheader">Private Home Tutor - September 2017 to Present</p>
+                <p>I was a private home tutor for a middle school student. I was responsible with guiding her through school work and
+                    progressing her core understandings of her school subjects. With my efforts, I was able to boost her grade from a C to a B within the first few months of instructions.
+                </p>
+            </div>
+
+            <div class = "work">
+                <p class="workheader">ETL Developer Intern - July 2021 to Present</p>
+                <p>I currently work at UCI OIT apart of the ETL Developer team helping maintain and develop their data warehouse. Using <strong>Informatica</strong>
+                I create and modify ETL mappings according to specs provided by the team leader. I also validate data from the warehouse and mappings using <strong>SQL</strong>.
+                In my role, I am in constant communication with the production team to provide information to help push my developer work into production.
+                </p>
+            </div>
+
+            
+        </div>
+
+
+            
+        </div>
+
+    <!--Black Copyright Footer at the bottom-->
+    <div>
+    <footer id="copyrightfooter">
+        <p>Copyright &copy; Tung Nguyen's Portfolio Website </p> 
+    </footer>
+    </div>
+</body>
+</html>

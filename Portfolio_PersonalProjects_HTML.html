@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tung's Personal Projects</title>
+    <link rel="stylesheet" href="PortfolioCSS.css">
+</head>
+<body>
+    <div id="mainheader">
+        <!--Title-->
+        <h1>Tung's Portfolio Website</h1>
+        <!--Portrait Picture on Banner-->
+        <img src="tung.png" alt="Self portrait of Tung Nguyen">
+    </div>
+    
+    <div>
+        <nav id="main_navmenu"> <!--Main Navigation Menu-->
+                <ul>
+                    <!--List of objects in navigation menu-->
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="Portfolio_WorkExperience_HTML.html">Work Experience</a></li>
+                    <li><a href="Portfolio_PersonalProjects_HTML.html">Personal Projects</a></li>
+                    <li><a href="Portfolio_ConnectWithMe_HTML.html">Connect with me</a></li>
+                    <li><a href="https://drive.google.com/file/d/18L-n2QZ8QuJmbLWJZ2MtaL-DGXkVCxb9/view?usp=sharing">Resume</a></li>
+
+                </ul>
+        </nav>
+    </div>
+
+
+    <div class="sidebar_items">  <!-- Sidebar of page-->
+        <aside id="sidebar">
+            <nav id="sidenavmenulanguages">
+                <ul>
+                    <!-- List of icons -->
+                    <li><p>Languages</p></li>
+                    <li><img src="csslogo.png" alt="CSS Picture Logo"></li>
+                    <li><img src="htmllogo.png" alt="HTML Picture Logo"></li>
+                    <li><img src="pythonlogo.png" alt="Python Picture Logo"></li>
+                    <li><img src="javalogo.png" alt="Java Picture Logo"></li>
+                    <li><img src="gitlogo.png" alt="Git Picture Logo"></li>
+                    <li><img src="lualogo.png" alt="Lua Picture Logo"></li>
+                    <li><img src="sqllogo.png" alt="SQL Picture Logo"></li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+
+    <div class = "container">
+        
+        <div id="mainbody">
+            <!--Main body section with content-->
+            <!--Each section is classified into 'project' class-->
+            <!--Headers for each section is 'projectheader'-->
+            <h1>Personal Projects</h1>
+            <div class="project">
+                <strong class="projectheader">Student GameDev Hackathon: Game</strong>
+                <br>
+                <img src="gamedevcover.png" alt="Student GameDev Project Picture">
+                <p>A fully playable puzz dungeon-crawler game made with both Lua and the Core game engine. It was created as a submission for a Student Gamedev hackathon where you were given 20 days to learn the Core engine
+                    and build a game from the ground up.
+                </p>
+                <a href="https://dinhderek11.itch.io/httpswwwcoregamescomgamese658fb2020-vision">Submission</a>
+            </div>
+
+            <br>
+
+            <div class="project">
+                
+                <strong class="projectheader">Food Monitoring App Wireframe</strong>
+                <br>
+                <img src="FoodU_Wireframe.png" alt="Food Monitoring App Wireframe Cover">
+                <p> A wireframe for a Food Monitoring App that can be fully interacted with. The wireframe was created with Axure and the UI was eventually coded into Android Studio. The wireframe's design is based off engineered requirements
+                    from consultations with real users.
+                </p>
+                <a href="https://cla2xt.axshare.com">Interactable Wireframe</a>
+            </div>
+
+            <br>
+            
+            <div class="project">
+                <strong class="projectheader">Pc Parts Script</strong>
+                <br>
+                <img src="pcpartpicker.png" alt="Pc Parts Script Logo">
+                <p>A python based script that gives users access to preset PC builds and allows them to configure them into a parts list. It also uses web scraping via BeautifulSoup to allow price tracking for each part in the list so that users
+                    can optimize their parts list's budget. 
+                </p>
+                <a href="https://github.com/DinhDerek/PC-Parts-Script">Github</a>
+
+                <br>
+
+            <div class="project">
+                <strong class="projectheader">Recipe Database App</strong>
+                <br> 
+                <img src="recipebook.png" alt="Recipe Database App Logo">
+                <p>A ptyhon based script that users can input recipes into. The script would be able to store the recipes locally into .csv files and proeprly access the recipes like a directory. With the recipes and their measurements,
+                    users would be able to automatically calculate serving sizes. This script was primarily used personally by friends and family to assist in eating behavior.
+                </p>
+                <a href="https://github.com/Mimtos/Recipe-Database-and-Servings-Calculator">Github</a>
+            </div>
+
+            <br>
+
+            <div class="project">
+                <strong class="projectheader">Projectile Physics-Based Simulation</strong>
+                <br>
+                <img src="physics_simulation.png" alt="Physics Simuation Preview">
+                <p>A python based program that can simulate projectile physics. It was constructed 
+                    using implemented polymorphism and is accompanied with a simple GUI to navigate the program.
+                </p>
+                <a id = 'deadlink' href="http://127.0.0.1:5500/Portfolio_PersonalProjects_HTML.html"> Homework Submission N/A for privacy</a>
+            </div>
+
+            <br>
+
+            <div class="project">
+                <strong class="projectheader">Search Engine</strong>
+                <br>
+                <img src="holosearch.png" alt="HoloSearch Search Engine Logo">
+                <p>Co-developed  a  search  engine  from  the  ground  up  that queries against a large database of UCI websites using reverse indexing and a tf-idf measure to rank pages on their accuracy.  The search engine is  capable of handling tens of thousands of documents or Web pages and has a query response time under 100ms.</p>
+                <a href="https://github.com/DinhDerek/INF-141-Assignment-3">Github</a><br><br>
+            </div>
+            
+        </div>
+
+
+            
+        </div>
+
+    
+    </div>
+
+    <!--Black Copyright Footer at the bottom-->
+    <footer id="copyrightfooter">
+        <p>Copyright &copy; Tung Nguyen's Portfolio Website </p> 
+    </footer>
+   
+</body>
+</html>
